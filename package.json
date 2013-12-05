@@ -1,0 +1,21 @@
+{
+  "name": "plato-jshint",
+  "version": "0.0.0",
+  "description": "jshint reporter for plato",
+  "main": "reporter/index.js",
+  "dependencies": {
+    "jshint": "~2.3.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "load-grunt-config": "~0.7.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "q": "~0.9.7"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "",
+  "license": "MIT"
+}
